@@ -1,0 +1,49 @@
+{
+  "pages": {
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/page.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/(dark-pages)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(dark-pages)/layout.css",
+      "static/chunks/app/(dark-pages)/layout.js"
+    ],
+    "/(dark-pages)/home/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(dark-pages)/home/page.css",
+      "static/chunks/app/(dark-pages)/home/page.js"
+    ],
+    "/(light-pages)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(light-pages)/layout.css",
+      "static/chunks/app/(light-pages)/layout.js"
+    ],
+    "/(light-pages)/guides/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(light-pages)/guides/page.js"
+    ],
+    "/(dark-pages)/how-to/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(dark-pages)/how-to/page.css",
+      "static/chunks/app/(dark-pages)/how-to/page.js"
+    ],
+    "/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/not-found.js"
+    ]
+  }
+}
